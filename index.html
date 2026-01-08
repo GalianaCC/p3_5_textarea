@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>p3_5_textarea <area shape="" coords="" href="" alt=""></title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <style>
+      *{
+        box-sizing: border-box;
+      }
+      @font-face {
+        font-family: NeutralStd-Regular.otf;
+        src: url('font/NeutralStd-Regular.otf');
+      }
+      body, 
+      textarea{
+        font-family: NeutralStd-Regular.otf;
+        position: relative;
+        top: 0;    
+        left: 0;
+        padding: 1em;
+        margin: 1em;
+        background-color: rgb(255, 247, 236);
+        width: 20em;
+        height: 10em;
+}
+    </style>
+  </head>
+
+  <body>
+    <label for="">POSTS AAVV</label>
+  <p>Proyecto para realizar la gráfica comunicativa</p>
+    <textarea name="t" id="text_area" rows="3" cols="0">
+      hola mundo 
+    </textarea>
+    <div id="canvasWrapper"></div>
+    <script src="sketch.js"></script>
+ </body>
+</html>
